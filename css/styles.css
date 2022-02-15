@@ -1,0 +1,25 @@
+body{
+    font-family:"Poppins",Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+    background-color: #080439;
+}
+
+header a{
+    color: #fff;
+}
+
+.cta{
+    background-color: #080439;
+    color: #fff;
+}
+
+.cta-button{
+    background-color:#7523D3 ;
+    color: #fff;
+}
+.info{
+    background-color:#DDDDDD ;
+}
