@@ -5,21 +5,93 @@ body{
 
 header{
     background-color: #080439;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    margin-left: 50px;
 }
 
 header a{
     color: #fff;
+    padding: 10px;
 }
+
+nav ul{
+    padding: 0px;
+}
+
+nav ul li{
+    display: inline-block; 
+}
+
+/* links */
+a{
+    text-decoration: none;
+}
+
 
 .cta{
     background-color: #080439;
     color: #fff;
+    font-size: 1em;
+    padding: 15px 60px;
+    border-radius: 4px;
+    text-transform:uppercase;
+}
+
+.cta-medium{
+    padding: 15px 100px;
+
+}
+
+.cta-big{
+    padding: 15px 180px;
+
 }
 
 .cta-button{
     background-color:#7523D3 ;
     color: #fff;
 }
+
+.active{
+    text-decoration: underline;
+}
 .info{
     background-color:#DDDDDD ;
+}
+
+
+
+
+/* home page */
+
+.museum-view,
+.welcome-view{
+    background-image: url("../images/museum.big.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 70vh;
+    position: relative;
+    width: 100%;
+    position: relative;
+}
+
+.museum-view--contains,
+.welcome-view--contains{
+  position: absolute; 
+  top: 300px; 
+  left: 50px;
+  text-align: left;
+}
+
+
+/* Support us page */
+
+.welcome-view{
+    background-image: url("../images/tree.jpg");
 }
