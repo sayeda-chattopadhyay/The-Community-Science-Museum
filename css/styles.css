@@ -32,6 +32,7 @@ a{
 }
 
 
+
 .cta{
     background-color: #080439;
     color: #fff;
@@ -66,11 +67,11 @@ a{
 
 
 
-/* home page */
+/* home page and support us*/
 
 .museum-view,
 .welcome-view{
-    background-image: url("../images/museum.big.jpg");
+    background-image: url("../images/museum.big_edited.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -89,9 +90,72 @@ a{
   text-align: left;
 }
 
+.explore{
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 10px;
+    border: 2px solid black;
+    
+}
+
+.explore div{
+    flex: 1;
+}
+
+
 
 /* Support us page */
 
 .welcome-view{
     background-image: url("../images/tree.jpg");
+}
+
+
+.support{
+    max-width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 4px solid yellow;
+    margin: 20px auto;
+       
+}
+
+
+.support-card{
+    border: 2px solid red;
+    padding: 20px ;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+   
+}
+
+.image_support{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* Young stars club page */
+
+
+.Club{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    
+}
+
+.Club > * {
+    flex: 1;
+
 }
