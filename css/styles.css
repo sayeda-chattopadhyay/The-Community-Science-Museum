@@ -7,22 +7,54 @@
 
 body{
     font-family:"Poppins",Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:auto 1fr auto ;
 }
+
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 14px;
+
+}
+p{
+    font-size: 16px;
+}
+
 
 
 header{
     background-color: #080439;
     display: flex;
     align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+
 }
 
 nav{
+   
     margin-left: 50px;
-}
+    display: none;
+    position: fixed;
+    top: 85px;
+    background-color: #080439;
+    z-index: 1000;
+    right: 0px;
 
-header a{
-    color: #fff;
-    padding: 10px;
 }
 
 nav ul{
@@ -30,29 +62,25 @@ nav ul{
 }
 
 nav ul li{
-    display: inline-block; 
+
+    display: block; 
+    padding: 10px 20px;
+    border: 2px solid red;
 }
 
-img{
-    width: 100%;
+
+#hamburger-menu{
+    display: none;
 }
 
-h1{
-    font-size: 48px;
-}
-h2{
-    font-size: 36px;
-}
-h3{
-    font-size: 28px;
-}
-h4{
-    font-size: 20px;
 
+#hamburger-menu:checked ~ nav{
+    display: block;
 }
-p{
-    font-size: 18px;
-}
+
+
+
+
 
 
 /* links */
@@ -60,30 +88,33 @@ a{
     text-decoration: none;
 }
 
+header a{   
+    color: #fff;
+    padding: 10px;
+}
 
 .cta{
     background-color: #080439;
     color: #fff;
     font-size: 1em;
-    padding: 15px 50px;
+    padding: 15px 40px;
     border-radius: 4px;
     text-transform:uppercase;
     display: inline-block;
 }
 
-.cta-medium{
-    padding: 15px 100px;
 
-}
 
-.cta-big{
-    padding: 15px 180px;
-
-}
 
 .cta-button{
-    background-color:#7523D3 ;
+    background-color:#7523D3;
     color: #fff;
+}
+
+.cta-card,
+.cta-museum{
+    padding: 15px 40px;
+
 }
 
 .active{
@@ -104,12 +135,60 @@ a{
     transition: all 1s ease;
 }
 
+.visit-button{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translatex(-50%);
+    min-width: 210px;
 
-/* home page and support us*/
+}
 
 
-.museum-view,
-.welcome-view{
+
+.card-small,
+.support-card{
+    max-width: 400px;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 20px ;  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+
+.card-small:hover,
+.card-big:hover,
+.card-medium:hover,
+.support-card:hover{
+    background-color: #DDDDDD;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+}
+
+
+.card-small a,
+.card-medium a,
+.card-big a,
+.support-card a{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+/* home page*/
+
+
+.museum-view{
     background-image: url("../images/museum.big_edited.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,26 +200,23 @@ a{
     position: relative;
 }
 
-.museum-view--contains,
-.welcome-view--contains{
-  position: absolute; 
-  top: 400px; 
-  left: 200px;
-  text-align: left;
+.museum-content{
+    border: 4px solid yellow;
+    max-width: 1400px;
+    padding: 5px;
+    margin: 0px auto; 
 }
-
-/* home page */
 
 .welcome{
     border: 4px solid yellow;
     max-width: 1400px;
     display: flex;  
-    flex-direction: row;    
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 50px;
     margin: 100px auto;   
     padding: 20px;
+    flex-direction: column;
 }
 
 
@@ -169,16 +245,17 @@ a{
 }
 
 
+
  .explore{
     border: 4px solid yellow;
     max-width: 1400px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;    
     justify-content: center;
     gap: 10px;   
     margin: 50px auto;
     padding: 20px;
+    flex-direction: column;
     
 }
 
@@ -187,46 +264,23 @@ a{
 }
 
 
-.card-small{
-    max-width: 400px;
-    border: 2px solid red;
-    border-radius: 4px;
-    padding: 20px ;  
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 20px auto;
-}
-
-.card-small:hover,
-.card-big:hover,
-.card-medium:hover,
-.support-card:hover{
-    background-color: #DDDDDD;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
-
-}
-
-
-.card-small a,
-.card-medium a,
-.card-big a,
-.support-card a{
-    display: block;
-    text-align: center;
-    margin: auto;
-}
-
 
 
 
 
 /* Support us page */
 
+
 .welcome-view{
     background-image: url("../images/tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 70vh;
+    position: relative;
+    width: 100%;
+    position: relative;
 }
 
 
@@ -235,10 +289,11 @@ a{
     border: 4px solid yellow;
     margin: 20px auto;
     padding: 20px ;
-    max-width: 1800px;
+    max-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: column;
          
 }
 
@@ -267,16 +322,7 @@ a{
 }
 
 
-.support-card{
-    border: 2px solid red;
-    padding: 20px ;
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin: 20px auto;
-   
-}
+
 
 .image_support{
     width: 100%;
@@ -295,10 +341,12 @@ a{
 .events{
     border: 4px solid yellow;
     margin: 20px auto;
-    max-width: 1800px;
+    max-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: column;
+    
     
 }
 
@@ -331,13 +379,14 @@ a{
 
 .club-weekly,
 .club-holiday{
-    border: 4px solid yellow;
+    
     max-width: 1400px;
     margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;     
-    gap: 20px;
+    justify-content: space-around;     
+    gap: 10px;
+    flex-direction: column;
 }
 
 
@@ -374,3 +423,124 @@ a{
     padding: 30px 20px;    
 }
 
+
+
+
+@media (min-width:600px){
+
+    .visit-button{
+        top: 380;
+        left: 120px;
+        transform: none;
+
+
+}
+
+
+@media (min-width:858px){
+ .welcome{
+        flex-direction: row;
+    }
+ .welcome-text{
+        flex: 2;
+    }
+
+.explore,
+.support{
+    flex-direction: row;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.events{
+    flex-direction: row;
+}
+
+.tours{
+    flex-direction: row;
+    gap: 10px;
+}
+.club-weekly,
+.club-holiday{
+    flex-direction: row;
+}
+
+.mission{
+    flex-direction: row;
+}
+
+.mission-text{
+    flex: 2;
+}
+
+
+
+nav{
+    display: block;
+    position: static;
+    top: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px;
+}
+
+header label{
+display: none;
+}
+
+header{
+justify-content:space-between;
+
+}
+
+p{
+    font-size: 18px;
+}
+
+}
+
+
+.cta-medium{
+    padding: 15px 100px;
+
+}
+
+.cta-big{
+    padding: 15px 180px;
+
+}
+
+
+
+@media (min-width:1060px){
+ 
+    .exhibitions{
+        flex-direction: row;
+    }
+
+    .visit-button{
+        top: 380;
+        left: 280px;
+        transform: none;
+    
+    } 
+} 
+    
+    
