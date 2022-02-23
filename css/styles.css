@@ -101,6 +101,7 @@ header a{
     border-radius: 4px;
     text-transform:uppercase;
     display: inline-block;
+   
 }
 
 
@@ -426,13 +427,17 @@ header a{
 
 
 
+
+
+
+
 @media (min-width:600px){
 
     .visit-button{
         top: 380;
         left: 120px;
         transform: none;
-
+    }
 
 }
 
