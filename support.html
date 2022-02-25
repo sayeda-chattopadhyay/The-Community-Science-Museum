@@ -8,11 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdb94ef7c7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <a href="index.html">The Community Science Museum</a>
+        <label for="hamburger-menu"><i class="fa-regular fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
         <nav>
             <ul>
                 <li><a href="visit.html">Visit</a></li>
@@ -52,44 +55,91 @@
             </div>      
         </section>
         <h2>Ways to Support</h2>
-        <section class="support">          
-            <div class="support-card">
-                <div class="support-image">
-                    <img src="images/small_card/donation1.jpg" alt=" Donations written by Typewriter" class="image_support">
+        <section class="support_container"> 
+            <div class="explore">
+                <div class="card-small">
+                    <div class="explore-image">
+                        <img src="images/small_card/donation1.jpg" alt=" Donations written by Typewriter" class="image_support">
+                    </div>                   
+                    <div class="explore-text"> 
+                        <h3>Donate Now</h3>                  
+                        <p>Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.You can also support us by donating items of interest to the museum’s collections. </p>
+                    </div>
+                    <div>
+                        <a href="#" class="cta">Learn More</a>
+                    </div>
                 </div>
-                <h3>Donate Now</h3>
-                <div class="support-text">                   
-                    <p>Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.</p>
+                <div class="card-small">
+                    <div class="explore-image">
+                        <img src="images/small_card/member1.jpg" alt="group of people wearing colourful jackets" class="image_support">
+                    </div>               
+                    <div class="explore-text"> 
+                        <h3>Become a Member</h3>                  
+                        <p>Support us by becoming a member. Membership is giving you the opportunity to visit the exhibitions outside normal opening hours and many more benefits.</p>
+                    </div>
+                    <div>
+                        <a href="#" class="cta">Learn More</a>
+                    </div>
                 </div>
-                <div>
-                    <a href="#" class="cta">Learn More</a>
-                </div>
-            </div>
-            <div class="support-card">
-                <div class="support-image">
-                    <img src="images/small_card/member1.jpg" alt="group of people wearing colourful jackets" class="image_support">
-                </div>
-                <h3>Become a Member</h3>
-                <div class="support-text">                   
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nobis error quis at, temporibus quam odio, aliquam dolorum corrupti itaque, quo explicabo quaerat nihil adipisci sequi! Temporibus magni sunt perferendis.</p>
-                </div>
-                <div>
-                    <a href="#" class="cta">Learn More</a>
-                </div>
-            </div>
-            <div class="support-card">
-                <div class="support-image">
-                    <img src="images/small_card/hand1.jpg" alt="a group of people holding each other hands" class="image_support">
-                </div>
-                <h3>Get Involved</h3>
-                <div class="support-text">                   
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos</p>
-                </div>
-                <div>
-                    <a href="#" class="cta">Learn More</a> 
-                </div>                              
-            </div>            
+                <div class="card-small">
+                    <div class="explore-image">
+                        <img src="images/small_card/hand1.jpg" alt="a group of people holding each other hands" class="image_support">
+                    </div>                
+                    <div class="explore-text">  
+                        <h3>Get Involved</h3>                 
+                        <p>A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. You can help volunteer in a number of different spheres.</p>
+                    </div>
+                    <div>
+                        <a href="#" class="cta">Learn More</a> 
+                    </div>                              
+                </div> 
+            </div>                     
         </section>
-    </main>   
+    </main> 
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+              <div class="footer-col">
+                  <h3>Opening Hours</h3>
+                  <ul>
+                    <li>Monday: Closed</li>
+                    <li>Tuesday: 10:00 – 16:00</li>
+                    <li>Wednesday: 10:00 – 16:00</li>
+                    <li>Thursday: 10:00 – 16:00</li>
+                    <li>Friday: 10:00 – 19:00</li>
+                    <li>Saturday: 9:00 – 16:00</li>
+                    <li>Sunday: 9:00 – 13:00</li>
+                </ul>                  
+              </div>
+              <div class="footer-col">
+                <h3>Location</h3>
+                <ul>
+                  <li>The Science Museum</li>
+                  <li>Great Ryad Street</li>
+                  <li>Trondheim 7033</li>
+              </ul>                  
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                  <li><a href="#">+41 345 768 903</a></li>
+                  <li><a href="#">comSciMuse@mail.com</a></li>                               
+              </ul>                  
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="event.html">Events & Exhibitions</a></li>
+                  <li><a href="support.html">Support Us</a></li> 
+                  <li><a href="#">Accessibility</a></li> 
+                  <li><a href="#">Food and Drink</a></li>
+                  <li><a href="#">Volunteer</a></li> 
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">Internships</a></li>                             
+              </ul>                  
+            </div>
+          </div>      
+        </div>       
+      </footer>    
 </body>
 </html>
