@@ -522,7 +522,7 @@ header a{
 
 
 
-
+/* media query */
 
 
 
@@ -545,12 +545,8 @@ header a{
         width: 90%;
            
       }
-    
-    
+
 }
-
-
-
 
 
 
@@ -572,10 +568,10 @@ header a{
        
   }
 
-
 h1{
     font-size: 48px;
 }
+
 h2{
     font-size: 36px;
 }
