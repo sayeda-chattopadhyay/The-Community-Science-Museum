@@ -149,6 +149,11 @@ a{
     text-decoration: none;
 }
 
+
+nav ul li a:hover{
+    text-decoration: underline;
+   }
+
 footer a,
 header a{   
     color: #fff;
@@ -206,6 +211,9 @@ header a{
     min-width: 210px;
 
 }
+
+
+
 
 /* card */
 
@@ -668,4 +676,9 @@ p{
 
 } 
     
+
+
+   
+
+
     
