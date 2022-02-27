@@ -27,11 +27,17 @@
         </nav>
     </header>
     <main> 
-        <h1>Exhibitions & Events</h1>
+        <section class="events-content">
+            <div class="events-text">
+                <h1>Exhibitions & Events</h1>                            
+            </div> 
+        </section>      
         <section class="filter">
         </section>
-        <h2>Special Exhibitions</h2>            
-        <section class="card-big_container" > 
+        <div class="events-text">
+            <h2>Special Exhibitions</h2>
+        </div>               
+        <section class="card-big_container"> 
             <div class="exhibitions">
                 <div class="card-big">
                     <div class="card-big-image">
@@ -40,8 +46,10 @@
                     <div class="card-big-text">
                         <h3>Energetica </h3>
                         <h4>Exhibition</h4>
-                        <p>On loan from the NEMO Science Museum in Amsterdam, the Energetica is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting to ‘Wind Island’ that shows how turbines are able to use and control wind to create power. </p>
-                        <p>12 Feb 2022 - 16 Feb 2022</p>
+                        <div class="card-big-details">
+                            <p class="paragraph">On loan from the NEMO Science Museum in Amsterdam, the Energetica is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting to ‘Wind Island’ that shows how turbines are able to use and control wind to create power. </p>
+                            <p class="date">12 Feb 2022 - 16 Feb 2022</p>
+                        </div>                       
                     </div>
                     <div>
                         <a href="#" class=" cta cta-big">Book Now</a>
@@ -54,8 +62,10 @@
                     <div class="card-big-text">
                         <h3>Cosmology</h3>
                         <h4>Exhibition</h4>
-                        <p>Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</p>
-                        <p>17 Feb 2022 - 20 Feb 2022</p>
+                        <div class="card-big-details">
+                            <p class="paragraph">Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</p>
+                            <p class="date">17 Feb 2022 - 20 Feb 2022</p>
+                        </div>
                     </div>
                     <div>
                         <a href="#" class="cta cta-big">Book Now</a>
@@ -63,7 +73,9 @@
                 </div>      
             </div>                       
         </section>
-        <h2>Guided Tours</h2>
+        <div class="events-text">
+            <h2>Guided Tours</h2>
+        </div>       
         <section class="card-medium_container">  
             <div class="tours">
                 <div class="card-medium">
@@ -73,8 +85,10 @@
                     <div class="card-medium-text">
                         <h3>Robotics and AI</h3>
                         <h4>Guided Tour</h4>
-                        <p>The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. </p>
-                        <p>10 March 2022 - 14 March 2022</p>
+                        <div class="card-medium-details">
+                            <p class="para1">The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. </p>
+                            <p class="date">10 March 2022 - 14 March 2022</p>
+                        </div>                       
                     </div>
                     <div>
                         <a href="#" class="cta cta-medium">Book Now</a>
@@ -87,8 +101,10 @@
                     <div class="card-medium-text">
                         <h3>Biology and Medicine</h3>
                         <h4>Guided Tour</h4>
-                        <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. </p>
-                        <p>15 March 2022 - 20 March 2022</p>
+                        <div class="card-medium-details">
+                            <p class="para1">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. </p>
+                            <p class="date">15 March 2022 - 20 March 2022</p>   
+                        </div>                       
                     </div>
                     <div>
                         <a href="#" class="cta cta-medium">Book Now</a>
@@ -96,46 +112,54 @@
                 </div>     
             </div>                           
         </section>
-        <h2>Highlight Events</h2> 
+        <div class="events-text">
+            <h2>Highlight Events</h2> 
+        </div>        
         <section class="card-small_container">
             <div class="explore">
-                <div class="card-small">
+                <div class="card-small-event">
                     <div class="explore-image">
                         <img src="images/small_card/music1.jpg" alt="microphone to sing a beautiful song">
                     </div>
                     <div class="explore-text_event">
                         <h3>Melodious Evening</h3>
                         <h4>Event</h4>
-                        <p>An evening of Ancient Roman Music. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi minus fugiat aliquid distinctio rem officiis maxime amet expedita </p>
-                        <p class="date">20 Feb 2022 - 22 Feb 2022</p>
+                        <div class="explore-text_event-details">
+                            <p class="para2">An evening of Ancient Roman Music. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi minus fugiat aliquid distinctio rem officiis maxime amet expedita </p><br>
+                            <p class="date">20 Feb 2022 - 22 Feb 2022</p>
+                        </div>                      
                     </div>
                     <div>
                         <a href="#" class="cta">Book Now</a>
                     </div>
                 </div>
-                <div class="card-small">
+                <div class="card-small-event">
                     <div class="explore-image">
                         <img src="images/small_card/plant1.jpg" alt="a picture of a jet aircraft">
                     </div>
-                    <div class="explore-text">
+                    <div class="explore-text_event">
                         <h3>Lecture</h3>
                         <h4>Event</h4>
-                        <p>Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                        <p class="date">24 Feb 2022 - 26 Feb 2022</p>
+                        <div class="explore-text_event-details">
+                            <p class="para2">Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.</p><br>
+                            <p class="date">24 Feb 2022 - 26 Feb 2022</p>
+                        </div>                      
                     </div>
                     <div>
                         <a href="#" class="cta">Book Now</a>
                     </div>
                 </div>
-                <div class="card-small">
+                <div class="card-small-event">
                     <div class="explore-image">
                         <img src="images/small_card/nightstay1.jpg" alt="a mother and her two kids are sitting on the floor and discussing about the paintings in the gallary. ">
                     </div>
-                    <div class="explore-text">
+                    <div class="explore-text_event">
                         <h3>Night in the museum</h3>
                         <h4>Event</h4>
-                        <p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. </p>
-                        <p class="date">27 Feb 2022 - 30 Feb 2022</p>
+                        <div class="explore-text_event-details">
+                            <p class="para2">Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. </p><br>
+                            <p class="date">27 Feb 2022 - 30 Feb 2022</p>
+                        </div>                       
                     </div>
                     <div>
                         <a href="#" class="cta">Book Now</a>
