@@ -1,0 +1,207 @@
+
+@media only screen and (min-width:600px) and (max-width:857px){
+
+    h1{
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .explore{
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+
+    .card-small{
+        width: 90%;
+           
+      }
+
+    .card-big,
+    .card-medium,
+    .card-small-event{
+        max-width: 580px;
+    }
+
+}
+
+
+
+@media only screen and  (min-width:858px){
+ .welcome,
+ .explore,
+ .support,
+ .card-club,
+ .events,
+ .tours,
+ .club-weekly,
+ .club-holiday,
+ .mission{
+        flex-direction: row;
+    }
+ .welcome-text,
+ .mission-text{
+        flex: 2;
+    }
+
+.explore,
+.support{
+    /* flex-direction: row; */
+}
+
+
+
+.card-club{
+    /* flex-direction: row; */
+}
+
+
+.card-small,
+.card-small-event{
+    max-width: 400px;
+       
+  }
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 16px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.events{
+    /* flex-direction: row;*/
+}
+
+.tours{
+    /* flex-direction: row; */
+    gap: 10px;
+}
+
+
+.club-weekly,
+.club-holiday{
+    /*flex-direction: row;*/
+}
+
+.mission{
+    /*flex-direction: row;*/
+}
+
+.mission-text{
+    /*flex: 2;*/
+}
+
+nav{
+    display: block;
+    position: static;
+    top: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px;
+}
+nav ul li a {
+    font-size: 1.2em;
+}
+
+
+header label{
+display: none;
+}
+
+header{
+justify-content:space-between;
+
+}
+
+
+p{
+    font-size: 18px;
+}
+
+.explore-text p{
+    height: 230px;
+}
+
+.cta-medium{
+    padding: 15px 100px;
+
+}
+
+.cta-big{
+    padding: 15px 180px;
+
+}
+
+
+.footer-col{
+    width: 50%;
+}
+
+
+.card-medium-details{
+    height: 200px;
+}
+
+
+
+
+.explore-text_event-details{
+    height: 300px;
+}
+
+
+.para1{
+    min-height:150px ;  
+}
+
+
+.para2{
+    min-height:200px ;  
+
+}
+
+
+}
+
+
+
+@media only screen and (min-width:1060px){
+ 
+    .exhibitions{
+        flex-direction: row;
+    }
+
+    .paragraph{
+        min-height:250px ;  
+    }
+
+    .footer-col{
+        width: 25%;
+    }
+
+
+} 
+    
+
+
+   
+
+
+    
