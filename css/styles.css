@@ -133,7 +133,10 @@ nav ul li{
     display: block;
 }
 
-
+.ikon-spacing{
+    font: 1.5em;
+    color: #fff;
+}
 
 
 /* Header of home page and support page */
