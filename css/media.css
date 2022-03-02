@@ -31,11 +31,7 @@
 
 
 @media only screen and  (min-width:858px){
-
-
-
-
-    
+  
  .welcome,
  .explore,
  .support,
@@ -53,11 +49,9 @@
     }
 
 
-
 .card-small,
 .card-small-event{
-    max-width: 400px;
-       
+    max-width: 400px;      
   }
 
 h1{
