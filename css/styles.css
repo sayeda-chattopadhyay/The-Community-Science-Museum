@@ -131,6 +131,7 @@ nav ul li{
 }
 
 
+
 #hamburger-menu:checked ~ nav{
     display: block;
 }
