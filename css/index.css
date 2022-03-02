@@ -24,7 +24,7 @@
 
 .welcome-text,
 .info{
-    border: 2px solid red;
+    border: 1px solid #b0aaaa;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -37,14 +37,14 @@
     
 }
 
-.timing ul{
-    /*list-style: none;*/
-}
-
 .timing h3{
     margin-bottom: 20px;
 }
 
 .ticket-button{
     text-align: center;
+}
+
+.museum-text h3{
+    margin-bottom: 0px;
 }

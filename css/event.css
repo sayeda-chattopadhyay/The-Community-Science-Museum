@@ -2,22 +2,23 @@
 .exhibitions,
 .tours,
 .events{
-    border: 4px solid yellow;
+    border: 1px solid #b0aaaa;
     margin: 20px auto 100px;
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;
     justify-content: space-around;   
-    /* max-width: 1400px;*/     
+    
 }
 
 
-
-.events{
-    /* width: 100%; */
-}
 
 .exhibitions > *,
 .tours > *{
   flex: 1;  
+}
+
+.date{
+  margin-top: 20px;
+  font-weight: bold;
 }

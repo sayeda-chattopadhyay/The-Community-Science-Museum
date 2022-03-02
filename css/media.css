@@ -31,6 +31,11 @@
 
 
 @media only screen and  (min-width:858px){
+
+
+
+
+    
  .welcome,
  .explore,
  .support,
@@ -47,16 +52,6 @@
         flex: 2;
     }
 
-.explore,
-.support{
-    /* flex-direction: row; */
-}
-
-
-
-.card-club{
-    /* flex-direction: row; */
-}
 
 
 .card-small,
@@ -83,28 +78,12 @@ p{
     font-size: 18px;
 }
 
-.events{
-    /* flex-direction: row;*/
-}
 
 .tours{
-    /* flex-direction: row; */
     gap: 10px;
 }
 
 
-.club-weekly,
-.club-holiday{
-    /*flex-direction: row;*/
-}
-
-.mission{
-    /*flex-direction: row;*/
-}
-
-.mission-text{
-    /*flex: 2;*/
-}
 
 nav{
     display: block;
