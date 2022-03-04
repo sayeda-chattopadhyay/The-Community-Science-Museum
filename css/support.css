@@ -4,9 +4,7 @@
 }
 
 
-.mission,
-.support{
-    /*padding: 20px;*/
+.mission{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;        
