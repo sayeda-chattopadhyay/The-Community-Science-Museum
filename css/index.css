@@ -6,11 +6,10 @@
 
 .welcome{
     display: flex;  
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: space-between;
     gap: 30px;
     margin: 50px auto;   
-    flex-direction: column;
 }
 
 
@@ -21,7 +20,7 @@
 
 .welcome-text,
 .info{
-    border: 1px solid #b0aaaa;
+    border: 1px solid #f2ebeb;
     padding: 30px;
     display: flex;
     flex-direction: column;

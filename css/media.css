@@ -10,8 +10,7 @@
     }
 
     .explore{
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-flow: row wrap;
        
     }
 
@@ -43,6 +42,7 @@
  .mission{
         flex-direction: row;
     }
+
  .welcome-text,
  .mission-text{
         flex: 2;
@@ -133,8 +133,6 @@ p{
 }
 
 
-
-
 .explore-text_event-details{
     height: 300px;
 }
@@ -169,6 +167,15 @@ p{
         width: 25%;
     }
 
+
+    .club_image,
+    .club_content{
+        max-width: 650px;
+    }
+
+.club_content-wrap p {
+    margin-bottom: 50px;
+}
 
 } 
     

@@ -6,12 +6,10 @@
 
 .mission,
 .support{
-    padding: 20px ;
+    /*padding: 20px;*/
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: column;
-         
+    flex-flow: column wrap;
+    justify-content: space-evenly;        
 }
 
 .mission{

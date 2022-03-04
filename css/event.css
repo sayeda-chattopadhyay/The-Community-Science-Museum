@@ -2,11 +2,9 @@
 .exhibitions,
 .tours,
 .events{
-    border: 1px solid #b0aaaa;
     margin: 20px auto 100px;
     display: flex;
-    flex-direction: column; 
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     justify-content: space-around;   
     
 }

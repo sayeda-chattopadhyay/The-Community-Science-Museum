@@ -11,7 +11,8 @@ body{
     font-family:"Poppins",Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     display: grid;
-    grid-template-rows:auto 1fr auto ;
+    grid-template-rows:auto 1fr auto;
+    color: #1D1D1D;
 }
 
 
@@ -39,9 +40,6 @@ p{
     padding: 10px;
    
 }
-
-
-
 
 
 img,
@@ -80,7 +78,10 @@ header,
 .mission-text,
 .mission-aside,
 .club_image,
-.club_content{
+.club_content,
+.club_content-wrap,
+.mission,
+.support_container{
     padding: 20px;
 }
 
@@ -93,8 +94,7 @@ header{
     justify-content: space-between;
     position: fixed;
     top: 0px;
-    height: 90px;
-    
+    height: 90px;   
 }
 
 
@@ -113,7 +113,6 @@ nav{
 
 
 nav{  
-   /* margin-left: 50px; */
     display: none;
     position: fixed;
     top: 90px;
@@ -140,14 +139,8 @@ nav ul li{
 }
 
 
-
 #hamburger-menu:checked ~ nav{
     display: block;
-}
-
-.ikon-big{
-    font: 2em;
-    color: #fff;
 }
 
 
@@ -183,7 +176,7 @@ nav ul li{
 .explore,
 .welcome,
 .mission,
-.support,
+.support_container,
 .exhibitions,
 .tours,
 .events{
@@ -196,7 +189,7 @@ nav ul li{
 .card-medium,
 .card-small-event,
 .mission,
-.support,
+.support_container,
 .card-club{
     margin: 20px auto;
 
@@ -212,6 +205,8 @@ nav ul li{
 .timing ul{
     list-style: none;
 }
+
+
 
 
 
@@ -256,16 +251,13 @@ nav ul li{
 
 /* card */
 
-
-
-.explore{
-    border: 1px solid #b0aaaa;
+.explore{  
     margin: 0 auto 100px; 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;    
     justify-content: center;
-    gap: 10px;   
+    gap: 10px;  
 }
 
 
@@ -311,7 +303,7 @@ nav ul li{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 20px auto;
+    /*margin: 20px auto;*/
     border-radius: 4px;
    
 }
@@ -319,7 +311,7 @@ nav ul li{
 
 .division{
     display: block;
-    background-color: #bab4b4;
+    background-color: #dad1d1;
     width: 95%;
     margin: 0 auto;
     height:1px;
@@ -329,4 +321,5 @@ nav ul li{
 h2,h3,h4{
     margin-bottom: 15px;
 }
+
 
