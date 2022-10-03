@@ -1,45 +1,43 @@
-.museum-view{
-    background-image: url("../images/museum.big_edited.jpg");
-    
+.museum-view {
+  background-image: url("../images/museum.big_edited.jpg");
 }
 
+/* adding flex to the hero section */
 
-.welcome{
-    display: flex;  
-    flex-flow: column wrap;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 50px auto;   
+/* mobile view */
+.welcome {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 50px auto;
 }
 
-
-.welcome >*{
-    flex: 1;
+.welcome > * {
+  flex: 1;
 }
 
 .welcome-text,
-.info{
-    border: 1px solid #f2ebeb;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.info {
+  border: 1px solid #f2ebeb;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-
-.info{
-    background-color:#DDDDDD ;
-    
+.info {
+  background-color: #dddddd;
 }
 
-.timing h3{
-    margin-bottom: 20px;
+.timing h3 {
+  margin-bottom: 20px;
 }
 
-.ticket-button{
-    text-align: center;
+.ticket-button {
+  text-align: center;
 }
 
-.museum-text h3{
-    margin-bottom: 0px;
+.museum-text h3 {
+  margin-bottom: 0px;
 }

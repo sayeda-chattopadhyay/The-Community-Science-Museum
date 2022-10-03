@@ -1,183 +1,161 @@
-
-@media only screen and (min-width:600px) and (max-width:857px){
-
-    h1{
-        font-size: 32px;
-    }
-
-    h3{
-        font-size: 24px;
-    }
-
-    .explore{
-        flex-flow: row wrap;
-       
-    }
-
-    .card-small{
-        width: 90%;
-           
-      }
-
-    .card-big,
-    .card-medium,
-    .card-small-event{
-        max-width: 580px;
-    }
-
-}
-
-
-
-@media only screen and  (min-width:858px){
-  
- .welcome,
- .explore,
- .support,
- .card-club,
- .events,
- .tours,
- .club-weekly,
- .club-holiday,
- .mission{
-        flex-direction: row;
-    }
-
- .welcome-text,
- .mission-text{
-        flex: 2;
-    }
-
-
-.card-small,
-.card-small-event{
-    max-width: 400px;      
+@media only screen and (min-width: 600px) and (max-width: 857px) {
+  h1 {
+    font-size: 32px;
   }
 
-h1{
+  h3 {
+    font-size: 24px;
+  }
+
+  .explore {
+    flex-flow: row wrap;
+  }
+
+  .card-small {
+    width: 90%;
+  }
+
+  .card-big,
+  .card-medium,
+  .card-small-event {
+    max-width: 580px;
+  }
+}
+
+@media only screen and (min-width: 858px) {
+  .welcome,
+  .explore,
+  .support,
+  .card-club,
+  .events,
+  .tours,
+  .club-weekly,
+  .club-holiday,
+  .mission {
+    flex-direction: row;
+  }
+
+  .welcome-text,
+  .mission-text {
+    flex: 2;
+  }
+
+  .card-small,
+  .card-small-event {
+    max-width: 400px;
+  }
+
+  h1 {
     font-size: 38px;
-}
+  }
 
-h2{
+  h2 {
     font-size: 32px;
-}
-h3{
+  }
+  h3 {
     font-size: 28px;
-}
-h4{
+  }
+  h4 {
     font-size: 16px;
-}
+  }
 
-p{
+  p {
     font-size: 18px;
-}
+  }
 
-
-.tours{
+  .tours {
     gap: 10px;
-}
+  }
 
-
-
-nav{
+  nav {
     display: block;
     position: static;
     top: 0px;
-}
+  }
 
-nav ul li{
+  nav ul li {
     display: inline-block;
     padding: 0px;
-}
-nav ul li a {
+  }
+  nav ul li a {
     font-size: 1.2em;
-}
+  }
 
+  header label {
+    display: none;
+  }
 
-header label{
-display: none;
-}
+  header {
+    justify-content: space-between;
+  }
 
-header{
-justify-content:space-between;
-
-}
-
-
-.explore-text p{
+  .explore-text p {
     height: 230px;
-}
+  }
 
-.cta-medium{
+  .cta-medium {
     padding: 15px 100px;
+  }
 
-}
-
-.cta-big{
+  .cta-big {
     padding: 15px 180px;
+  }
 
-}
-
-
-.footer-col{
+  .footer-col {
     width: 50%;
-}
+  }
 
-
-.card-medium-details{
+  .card-medium-details {
     height: 200px;
-}
+  }
 
-
-.explore-text_event-details{
+  .explore-text_event-details {
     height: 300px;
+  }
+
+  .para1 {
+    min-height: 150px;
+  }
+
+  .para2 {
+    min-height: 200px;
+  }
+
+  /* adding flex to hero section to check how it will look*/
+
+  /* .hero-section {
+    display: flex;
+  }
+
+  .hero-section > * {
+    flex: 1;
+  }
+
+  .museum-view {
+    flex: 2;
+    order: 2;
+  } */
 }
 
+@media only screen and (min-width: 1060px) {
+  .exhibitions {
+    flex-direction: row;
+  }
 
-.para1{
-    min-height:150px ;  
-}
+  .paragraph {
+    min-height: 250px;
+  }
 
+  .footer-col {
+    width: 25%;
+  }
 
-.para2{
-    min-height:200px ;  
+  .club_image,
+  .club_content {
+    max-width: 650px;
+  }
 
-}
-
-
-}
-
-
-
-@media only screen and (min-width:1060px){
- 
-    .exhibitions{
-        flex-direction: row;
-    }
-
-    .paragraph{
-        min-height:250px ;  
-    }
-
-    .footer-col{
-        width: 25%;
-    }
-
-
-    .club_image,
-    .club_content{
-        max-width: 650px;
-    }
-
-.club_content-wrap p {
+  .club_content-wrap p {
     margin-bottom: 50px;
+  }
 }
-
-} 
-    
-
-
-   
-
-
-    

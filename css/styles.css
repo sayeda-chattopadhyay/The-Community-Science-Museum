@@ -1,46 +1,42 @@
 @import "import/links.css";
 
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    font-family:"Poppins",Verdana, Geneva, Tahoma, sans-serif;
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows:auto 1fr auto;
-    color: #1D1D1D;
+body {
+  font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  color: #1d1d1d;
 }
 
-
-h1{
-    font-size: 24px;
+h1 {
+  font-size: 24px;
 }
-h2{
-    font-size: 20px;
+h2 {
+  font-size: 20px;
 }
-h3{
-    font-size: 18px;
+h3 {
+  font-size: 18px;
 }
-h4{
-    font-size: 14px;
-}
-
-p{
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.5px;
+h4 {
+  font-size: 14px;
 }
 
-.logo{
-    width: 220px;
-    padding: 10px;
-   
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
 }
 
+.logo {
+  width: 220px;
+  padding: 10px;
+}
 
 img,
 header,
@@ -63,11 +59,10 @@ header,
 .events,
 .club_image,
 .club_content,
-.image_club{
-    width: 100%;
+.image_club {
+  width: 100%;
+  /* border: 2px solid red; */
 }
-
-
 
 header,
 .footer-col,
@@ -81,97 +76,85 @@ header,
 .club_content,
 .club_content-wrap,
 .mission,
-.support_container{
-    padding: 20px;
+.support_container {
+  padding: 20px;
 }
-
 
 /* header */
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0px;
-    height: 90px;   
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  height: 90px;
 }
 
-
-main{
-    margin-top: 90px;
+main {
+  margin-top: 90px;
 }
-
-
 
 header,
 footer,
-nav{
-    background-color: #080439;
-    color: #fff;
+nav {
+  background-color: #080439;
+  color: #fff;
 }
 
-
-nav{  
-    display: none;
-    position: fixed;
-    top: 90px;
-    z-index: 1000;
-    right: 0px;
+nav {
+  display: none;
+  position: fixed;
+  top: 90px;
+  z-index: 1000;
+  right: 0px;
 }
-
 
 nav ul,
-.footer-col ul{
-    padding: 0px;
+.footer-col ul {
+  padding: 0px;
 }
 
-nav ul li{
-    display: block; 
-    padding: 20px 30px;
-    text-align: center;
+nav ul li {
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
 }
 
-
-
-#hamburger-menu{
-    display: none;
+#hamburger-menu {
+  display: none;
 }
 
-
-#hamburger-menu:checked ~ nav{
-    display: block;
+#hamburger-menu:checked ~ nav {
+  display: block;
 }
 
-
-.ikon-spacing{
-    font-size: 2.5em;
+.ikon-spacing {
+  font-size: 2.5em;
 }
 
-/* Header of home page and support page */
-
+/* Hero section of home page and support page */
 
 .museum-view,
-.welcome-view{
-    background: center no-repeat;
-    background-size: cover;
-    min-height: 60vh;   
+.welcome-view {
+  background: center no-repeat;
+  background-size: cover;
+  min-height: 60vh;
 }
 
-
-.museum-text{
-    max-width: 1200px;
-    padding: 10px 20px 30px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;  
+.museum-text {
+  max-width: 1200px;
+  padding: 10px 20px 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* border: 2px solid blue; */
 }
 
-.museum-text p{
-    max-width: 800px;
+.museum-text p {
+  max-width: 800px;
 }
-
 
 /* All pages*/
 
@@ -183,10 +166,9 @@ nav ul li{
 .support_container,
 .exhibitions,
 .tours,
-.events{
-    max-width: 1400px;
+.events {
+  max-width: 1400px;
 }
-
 
 .card-small,
 .card-big,
@@ -194,132 +176,110 @@ nav ul li{
 .card-small-event,
 .mission,
 .support_container,
-.card-club{
-    margin: 20px auto;
-
+.card-club {
+  margin: 20px auto;
 }
 
-.header-text{
-    padding: 0px 20px;
-    margin-top: 50px;   
+.header-text {
+  padding: 0px 20px;
+  margin-top: 50px;
 }
-
 
 .footer-col ul,
-.timing ul{
-    list-style: none;
+.timing ul {
+  list-style: none;
 }
-
-
-
-
 
 /* footer */
 
-.container{
-    margin: auto; 
+.container {
+  margin: auto;
 }
 
-
-.row{
-    display: flex;
-    flex-wrap: wrap; 
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-.footer{
-    padding: 70px 0px;
+.footer {
+  padding: 70px 0px;
 }
 
-.footer-col{
-    margin-bottom: 50px;
-    
+.footer-col {
+  margin-bottom: 50px;
 }
-
 
 .footer-col ul li a {
-    display: block;
-    padding:10px 0;
-    transition: all 0.3s ease;
+  display: block;
+  padding: 10px 0;
+  transition: all 0.3s ease;
 }
 
-
-.footer-col ul li a:hover{
-    padding-left: 8px;
+.footer-col ul li a:hover {
+  padding-left: 8px;
 }
-
-
-
 
 /* card */
 
-.explore{  
-    margin: 0 auto 100px; 
-    display: flex;
-    flex-flow: column wrap;  
-    justify-content: center;
-    gap: 10px;  
+.explore {
+  margin: 0 auto 100px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 10px;
 }
-
 
 .card-small:hover,
 .card-big:hover,
-.card-medium:hover{
-    background-color: #DDDDDD;
-    cursor: pointer;
-    transition: all 1s ease;
-
+.card-medium:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+  transition: all 1s ease;
 }
-
 
 .card-small a,
 .card-medium a,
 .card-big a,
-.card-small-event a{
-    display: block;
-    text-align: center;
-    margin: auto; 
+.card-small-event a {
+  display: block;
+  text-align: center;
+  margin: auto;
 }
-
 
 .card-big,
-.card-medium{
-    max-width: 600px;
-    gap: 50px;
+.card-medium {
+  max-width: 600px;
+  gap: 50px;
 }
 
-
-.card-medium{
-    max-width: 500px;
+.card-medium {
+  max-width: 500px;
 }
-
 
 .card-small,
 .card-big,
 .card-medium,
-.card-small-event{
-    border: 1px solid #b0aaaa;
-    border-radius: 4px;
-    padding: 20px;  
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 4px;
-   
+.card-small-event {
+  border: 1px solid #b0aaaa;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 4px;
 }
 
-
-.division{
-    display: block;
-    background-color: #dad1d1;
-    width: 95%;
-    margin: 0 auto;
-    height:1px;
-    margin-top: 30px;
+.division {
+  display: block;
+  background-color: #dad1d1;
+  width: 95%;
+  margin: 0 auto;
+  height: 1px;
+  margin-top: 30px;
 }
 
-h2,h3,h4{
-    margin-bottom: 15px;
+h2,
+h3,
+h4 {
+  margin-bottom: 15px;
 }
-
-
