@@ -14,7 +14,7 @@ Adobe XD was use for designing the website.
 The design was tested using Adobe XD prototype.
 The website was created using HTML and CSS.
 
-<a href="https://dreamy-curran-2df551.netlify.app ">Rainydays Link</a>
+<a href="https://dreamy-curran-2df551.netlify.app ">Link</a>
 
 ## Built With
 
