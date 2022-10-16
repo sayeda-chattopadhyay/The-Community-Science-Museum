@@ -2,7 +2,7 @@
 
 ![image](images/logo.museum.jpg)
 
-A semester project called “community science museum” with 4 webpages
+A semester project called “community science museum” with 4 webpages.
 
 ## Description
 
@@ -10,36 +10,36 @@ The Science museum website was a course assignment which was developed with HTML
 
 The following steps were used during development:
 
-Adobe XD was use for designing the website.
-The design was tested using Adobe XD prototype.
-The website was created using HTML and CSS.
+- Adobe XD was use for designing the website.
+- The design was tested using Adobe XD prototype.
+- The website was created using HTML and CSS.
 
 <a href="https://dreamy-curran-2df551.netlify.app ">Link</a>
 
 ## Built With
 
-HTML
-CSS
+- HTML
+- CSS
 
 ## Designed with
 
-AdobeXD
+- AdobeXD
 
 ## Getting Started
 
 ### Installing
 
-Download the zip of the project or clone the repo :
+- Download the zip of the project or clone the repo :
 
 https://github.com/sayeda-chattopadhyay/The-Community-Science-Museum.git
 
 ### Running
 
-Open in Visual Studio Code and use the Live Server Preview extension to view the site.
+- Open in Visual Studio Code and use the Live Server Preview extension to view the site.
 
 ## Contributing
 
-Any suggestions and feedback are welcome
+- Any suggestions and feedback are welcome.
 
 ## Contact
 
